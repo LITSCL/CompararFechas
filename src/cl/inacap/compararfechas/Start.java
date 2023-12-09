@@ -14,12 +14,12 @@ public class Start {
             System.out.println("Fecha-1: " + sdformat.format(fecha1));
             System.out.println("Fecha-2: " + sdformat.format(fecha2));
             if (fecha2.after(fecha1)) {
-                System.out.println("Fecha-2 es después que Fecha-1");
+                System.out.println("Fecha-2 es despuÃ©s que Fecha-1");
             }
             if (fecha1.equals(fecha2)) {
             	System.out.println("Fecha-1 y Fecha-2 son iguales");
             }
-        } catch(ParseException ex) {
+        } catch (ParseException ex) {
         	
         }
     }
